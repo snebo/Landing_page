@@ -26,10 +26,11 @@
     font-size: 18px;
 }
 .logo{
+    /* margin-right: auto; */
     font-size: 24px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #F9FAF8;;
+    color: #F9FAF8;
 }
 li>a {
      text-decoration: none;
@@ -63,6 +64,10 @@ li>a {
     flex:1;
     min-width: 500px;
     height: auto;
+    padding-right: 20px;
+}
+.headerI>img{
+    max-width: 100%;
 }
 .headerBtn{
     margin-top: 10px;
@@ -80,7 +85,7 @@ h1{
 }
 .content2{
     background-color: #F9FAF8;
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,8 +101,9 @@ h2{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: space-between;
+    align-items: baseline;
 }
 .card{
     display: flex;
@@ -116,11 +122,16 @@ h2{
     width: 300px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+    display: flex;
+}
+.card>div>img{
+    max-width: 100%;
+    border-radius: 10px;
 }
 .sec_3{
     background-color: #E5E7EB;
     display: flex;
-    height: 90vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
     padding:30px 0;
@@ -130,16 +141,17 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 65%;
+    min-height: 0;
 }
 .sec_3_quote{
-    font-size: 36px;
+    font-size: 30px;
     font-weight:300;
     font-style: italic;
     color: #1F2937;
 }
 .quote_tag{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 5px;
     font-weight: bolder;
     align-self: flex-end;
@@ -149,10 +161,11 @@ h2{
 .sec_4{
     background-color: #F9FAF8;
     display: flex;
-    height: 70vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
     padding:30px 0;
+    gap: 20px;
 }
 .sec4_con{
     margin:0;
@@ -173,9 +186,11 @@ h5{
 }
 .text{
     font-size: 18px;
+    width:80%
 }
 .signupBtn{
     padding:10px 30px;
+    font-size: 18px;
     border: 2px solid #F9FAF8;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -185,7 +200,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px 30px;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 18px;
